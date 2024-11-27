@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1755678-e2d0-47c8-b85d-62fc0b626475">
+  <producedTypes>
+    <objectType typeId="4abdb259-c433-4a22-84cb-4df6850798aa" valueTypeId="186dc7b4-3d9d-4f97-9ae7-3b2e9a015625"/>
+    <refType typeId="32ac3b2f-cf7e-41a3-9881-19433b48862f" valueTypeId="a73d0a1f-476e-4cd7-b7d7-077edf2c2871"/>
+    <selectionType typeId="09752b61-ee37-467f-bf67-28334b8cb6e3" valueTypeId="2e734dad-2259-43f1-ac8f-ec844f0d31e4"/>
+    <listType typeId="4918775f-038e-4545-a715-d8a020c55adf" valueTypeId="63e90cd1-c752-4388-9472-2c9c8da1d6d9"/>
+    <managerType typeId="eeab9bad-748a-4740-9a15-172e23aab9f1" valueTypeId="26bd4a7b-c80a-4e4d-a533-ca3716be556a"/>
+  </producedTypes>
+  <name>УчасткиПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Участки производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчасткиПроизводства.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УчасткиПроизводства.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Участок производства</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67311b9a-a80b-4bc1-9bd5-3c4f6d2d20ec">
+  <producedTypes>
+    <objectType typeId="2b9b9540-0a5b-40e2-852c-9e19cde232e2" valueTypeId="a30652dc-d17e-4cd5-ad59-2c7f8a2f4956"/>
+    <refType typeId="c1c5d68f-807f-4631-9bea-c6d8797068c6" valueTypeId="6be2db88-ae1a-4e74-a35f-430fd8e0f970"/>
+    <selectionType typeId="853c914c-2ca4-4358-bd19-dfa9ee80a46a" valueTypeId="e46a7532-d601-4ee6-b3b1-34402b8080bf"/>
+    <listType typeId="3d566e3d-d37e-45dc-ab82-11c4e65381f4" valueTypeId="c6dfb5de-8447-48b4-aac2-b7b752198903"/>
+    <managerType typeId="8cba9ca9-0358-4a4b-b37e-9bec94a9c91a" valueTypeId="f5abed35-e1bc-4613-800e-b9f6d57764f2"/>
+  </producedTypes>
+  <name>ЕденицыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Еденицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕденицыИзмерения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЕденицыИзмерения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>6</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a373d362-b669-454a-874d-6e9d7acd907b">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

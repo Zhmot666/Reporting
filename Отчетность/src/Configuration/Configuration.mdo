@@ -39,4 +39,15 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Производство</subsystems>
+  <subsystems>Subsystem.ЭМС</subsystems>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.Учетчик</roles>
+  <roles>Role.ЭМС</roles>
+  <catalogs>Catalog.ЕденицыИзмерения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.УчасткиПроизводства</catalogs>
+  <documents>Document.СкладГотовойПродукции</documents>
+  <enums>Enum.Месяыцы</enums>
 </mdclass:Configuration>

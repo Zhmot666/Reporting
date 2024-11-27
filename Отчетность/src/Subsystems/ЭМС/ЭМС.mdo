@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="094cb3fa-4560-4347-be52-062d5aa36043">
+  <name>ЭМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЭМС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.ЭМС</content>
+</mdclass:Subsystem>

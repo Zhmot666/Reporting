@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d440764-86e0-4ea8-9e57-1d422981d85e">
+  <producedTypes>
+    <objectType typeId="0b90c4e7-f394-480d-8e4d-41ca8451fef4" valueTypeId="96812962-fd53-42d2-8990-f1d315edb577"/>
+    <refType typeId="c23933b2-2183-4fb9-b999-e8a3bbee7a1b" valueTypeId="58ddcbdd-bc9d-4f5d-95cb-fa83783e383d"/>
+    <selectionType typeId="2d421484-f653-4997-8719-08758401f9c6" valueTypeId="b3f2bc96-e4f1-4bb9-86c1-9627fdd2851c"/>
+    <listType typeId="b182bee5-4064-40c7-8c61-863a4aa097e2" valueTypeId="7e5effb0-544e-41a0-82b4-a2796f45f447"/>
+    <managerType typeId="0d0c30d8-1d5b-4bc1-99f7-9aef82e0f84e" valueTypeId="9bad2342-a4ef-491a-857c-a2949c2cc523"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6bde6951-116a-434e-93b1-a4f0da497e35">
+    <name>УчастокПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участок производства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчасткиПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29a0b83d-47d5-4bfa-b8d1-f2f501e5ffc1">
+    <name>ЕденицыИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еденицы измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕденицыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10c00937-b6b1-4dfa-a56c-a4cf32812129">
+    <name>ВесЕденицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес еденицы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
